@@ -1,10 +1,37 @@
 # Solar-Radiation-Prediction
 
+Software And Tools Requirements
+1. [Github](https://github.com)
+2. [VSCodeIDE](https://code.visualstudio.com)
+
+Create a new environment
+
+```
+conda create -p venv python==3.7 -y
+```
+
 Git steps:
-1. "Git status" to check the status, whether green or red
-2. "Git add ." to add everything to staged
-3. "git commit -m "message" "to add a message
-4. "git push origin main" to upload on GitHub
+1. To check the status, whether green or red. Green means file/folder is staged, red means needs to staged.
+```
+git status
+``` 
+2. To add everything to staged
+```
+Git add .
+```
+3. To add a message
+```
+git commit -m "message" 
+```
+4. To pull the origin destination project.
+```
+git pull origin main
+```
+5. To upload on GitHub.
+```
+git push origin main
+```
+
 
 Project Overview:
 
@@ -20,8 +47,9 @@ Project Plan:
 4. Feature Selection using Pearson coefficient.
 5. Data Scaling and Normalization.
 6. Data Splitting into Train and Test.
-7. Model Training.
+7. Model Training.(Linear Regression, Random Forest)
 8. Predicting on test Dataset.
 9. Performance Metric.
 10. Hyperparameter Tuning.
+11. Pickling The Model file For Deployment 
 
