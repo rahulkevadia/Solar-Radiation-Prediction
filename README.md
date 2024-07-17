@@ -19,15 +19,15 @@ git status
 ```
 Git add .
 ```
-3. To add a message
+3. To add a message, and push it to staging env from local.
 ```
-git commit -m "message" 
+git commit -m "commit-message" 
 ```
 4. To pull the origin destination project.
 ```
 git pull origin main
 ```
-5. To upload on GitHub.
+5. To upload on GitHub and push it to main branch.
 ```
 git push origin main
 ```

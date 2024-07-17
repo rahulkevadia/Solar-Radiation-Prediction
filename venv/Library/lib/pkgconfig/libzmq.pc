@@ -1,0 +1,12 @@
+prefix=c:/Users/Rahul/Desktop/Projects/Solar-Radiation-Prediction/venv/Library
+exec_prefix=c:/Users/Rahul/Desktop/Projects/Solar-Radiation-Prediction/venv/Library
+libdir=c:/Users/Rahul/Desktop/Projects/Solar-Radiation-Prediction/venv/Library/lib
+includedir=c:/Users/Rahul/Desktop/Projects/Solar-Radiation-Prediction/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
