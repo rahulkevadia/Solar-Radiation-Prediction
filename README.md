@@ -22,6 +22,6 @@ Project Plan:
 6. Data Splitting into Train and Test.
 7. Model Training.
 8. Predicting on test Dataset.
-9. Comparision matrix.
+9. Performance Metric.
 10. Hyperparameter Tuning.
 
