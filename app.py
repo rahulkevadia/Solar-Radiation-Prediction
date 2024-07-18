@@ -5,7 +5,7 @@ import pandas as pd
 
 app=Flask(__name__)
 ## Load the model
-model=pickle.load(open('regmodel.pkl','rb'))
+model=pickle.load(open('linear_reg.pkl','rb'))
 scalar = pickle.load(open('scaling.pkl', 'rb'))
 
 @app.route('/')
