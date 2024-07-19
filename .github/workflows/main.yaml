@@ -1,5 +1,5 @@
 # Your workflow name.
-name: Deploy to render.
+name: Deploy to Render.
 
 # Run workflow on every push to main branch.
 on:
@@ -21,7 +21,7 @@ jobs:
       - name: Deploy to dev
         uses: johnbeynon/render-deploy-action@v0.0.8
         with:
-          service-id: ${{ secrets.MY_RENDER_SERVICE_ID }}
-          api-key: ${{ secrets.MY_RENDER_API_KEY }}
+          service_id: ${{ secrets.MY_RENDER_SERVICE_ID }}
+          api_key: ${{ secrets.MY_RENDER_API_KEY }}
 
 ### Deployed
