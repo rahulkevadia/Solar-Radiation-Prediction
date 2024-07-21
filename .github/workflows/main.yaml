@@ -25,4 +25,4 @@ jobs:
           render-service-id: ${{ secrets.MY_RENDER_SERVICE_ID }}
           render-api-key: ${{ secrets.MY_RENDER_API_KEY }}
 
-### Deployed ###
+### Git Render Deployment ###
