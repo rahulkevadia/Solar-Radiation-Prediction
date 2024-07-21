@@ -21,7 +21,8 @@ jobs:
       - name: Deploy to dev
         uses: johnbeynon/render-deploy-action@v0.0.8
         with:
-          service_id: ${{ secrets.MY_RENDER_SERVICE_ID }}
-          api_key: ${{ secrets.MY_RENDER_API_KEY }}
+        
+          render-service-id: ${{ secrets.MY_RENDER_SERVICE_ID }}
+          render-api-key: ${{ secrets.MY_RENDER_API_KEY }}
 
-### Deployed
+### Deployed ###
